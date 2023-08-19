@@ -14,9 +14,10 @@
 
     </header>
     <main class="container my-5 mx-auto ">
-        <section class="container mx-auto px-12 py-24 flex px-8">
+        <section class="container mx-auto px-12 py-24 flex px-8">\
+            <!-- Geometry card -->
             <div class="sm:w-10/12  p-2 flex  gap-12  mx-6 justify-center">
-              <!-- 1st card -->
+                  <!-- 1st card -->
                   <div class="card w-80 mb-6 bg-slate-400 shadow-xl pt-6">
                     <figure><img class="w-1/2" src="./assets/img/triangle.png"/></figure>
                     <div class="card-body text-center">
@@ -33,7 +34,7 @@
                         </label>
                       </div>
                       <div class="card-actions justify-center">
-                        <button onclick="Area(this)" class="btn w-full btn-primary text-white">Calculate</button>
+                        <button onclick="calculateArea(this)" class="btn w-full btn-primary text-white">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -54,7 +55,7 @@
                         </label>
                       </div>
                       <div class="card-actions justify-center">
-                        <button onclick="Area(this)" class="btn w-full btn-primary text-white">Calculate</button>
+                        <button onclick="calculateArea(this)" class="btn w-full btn-primary text-white">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -75,11 +76,12 @@
                         </label>
                       </div>
                       <div class="card-actions justify-center">
-                        <button onclick="Area(this)" class="btn w-full btn-primary text-white">Calculate</button>
+                        <button onclick="calculateArea(this)" class="btn w-full btn-primary text-white">Calculate</button>
                       </div>
                     </div>
                   </div>
             </div>
+            <!-- Result Table -->
             <div class="md:w-1/3">
                 <div class="bg-slate-300 p-6 flex flex-col overflow-x-hidden justify-center">
                     <table class="table">
